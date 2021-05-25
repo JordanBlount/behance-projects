@@ -2,7 +2,13 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Assistant', sans-serif;
     margin: 0;
 }
@@ -19,7 +25,6 @@ img {
     font-size: 1.15rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: rgb(88, 88, 88);
 }
 
 .nav__list,
@@ -29,8 +34,7 @@ img {
     list-style: none;
 }
 
-.nav__item,
-.footer__item {
+.nav__item {
     margin: 0;
     padding: 0.25em 0.50em;
     margin-left: 1.75em;
@@ -40,8 +44,12 @@ img {
     border: 2px solid rgb(88, 88, 88);
 }
 
-.nav__link,
-.footer__link {
+.footer__item {
+    margin: 0;
+    padding: 0.25em 0.50em;
+}
+
+.nav__link {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
@@ -49,17 +57,35 @@ img {
     font-size: 1rem;
 }
 
+.footer__link {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
 nav,
 footer {
     width: 100%;
 }
 
-main {
-    min-height: 100%;
+footer {
+    flex-shrink: 0;
+    margin: 0.75em 0 1.25em 0;
 }
 
-footer {
-    padding: 10px;
+.copyright {
+    font-size: 0.85rem;
+    text-align: right;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 .container {
