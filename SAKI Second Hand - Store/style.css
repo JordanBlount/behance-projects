@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Judson', serif;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+}
+
+h1, h2 {
+    margin-top: 0;
+    font-family: 'Vollkorn', serif;
+    font-weight: 800;
+}
+
+a {
+    display: block;
+    width: 100%;
+
+    text-decoration: none;
+    color: black;
+}
+
+.intro-letter {
+    font-size: 15rem;
+    text-align: center;
+}
+
+.intro-text {
+    padding: 0em 1em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: rgb(250, 235, 238);
+    border-left: 1px solid rgb(216, 216, 216);
+}
+
+.container {
+    height: 50%;
+}
+
+.intro-number {
+    margin-left: 0.5em;
+    font-size: 2rem;
+}
