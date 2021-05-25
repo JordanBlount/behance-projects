@@ -15,6 +15,7 @@ main {
 
 h1, h2 {
     margin-top: 0;
+    padding: 0;
     font-family: 'Vollkorn', serif;
     font-weight: 800;
 }
@@ -28,7 +29,7 @@ a {
 }
 
 .intro-letter {
-    font-size: 15rem;
+    font-size: 22rem;
     text-align: center;
 }
 
@@ -39,7 +40,7 @@ a {
 section {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100vh;
     background-color: rgb(250, 235, 238);
     border-left: 1px solid rgb(216, 216, 216);
@@ -51,5 +52,23 @@ section {
 
 .intro-number {
     margin-left: 0.5em;
+    margin-bottom: 1.75em;
     font-size: 2rem;
+}
+
+.letter-1 {
+    margin-top: 0.35em;
+}
+
+.letter-2 {
+    margin-top: 0.55em;
+}
+
+.letter-4 {
+    margin-top: 0.75em;
+}
+
+section:hover {
+    background-color: rgb(32, 32, 32);
+    color: rgb(250, 235, 238);
 }
