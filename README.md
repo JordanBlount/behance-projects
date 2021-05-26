@@ -19,3 +19,5 @@ The are currently ordered in the way I did them.
    
 
    Issues: The font sizes need to be fized for each letter of the brand name. The sizing causes some inherent padding on the letters which I do not know how to remove. This pushes the taglines (description text for each letter) down.
+
+3. **QStudio**: [Link](https://www.behance.net/gallery/115730041/QStudio-Online-Magazine) to the original design
